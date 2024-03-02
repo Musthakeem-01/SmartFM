@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartFM</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">
+        <div id="navbar_main" class="navbar_main">
+            <a href="index.html" id="logo"><img id="logo-img" src="assets/images/logo-01.png" alt="Logo"></a>
+            <div id="mySidenav" class="sidenav" >
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div id="sideItems">
+                    <a href="index.html">Home</a> 
+                        <a  href="about.html">About</a>
+                        <a href="solution.html">Solution</a>
+                        <a href="product.html">Product</a>
+                        <a href="partner.html">Partners</a>
+                        <a href="pricing.html">Pricing</a>
+                    <a id="try" class="try" href="#Try For Free">Try For Free</a>
+                </div>
+            </div>
+            <span class="right-side" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+        <section id="pricing-1" class="pricing-1">
+            <div class="container">
+                <div class="pricing-main easiness">
+                    <h2>
+                        Simple And Flexible Pricing
+                    </h2>
+                    <p>No credit card required. Change or cancel your plan anytime</p>
+                </div>
+            </div>
+            <div class="subcription-details  data-aos="fade-up" data-aos-duration="2000">
+                <div class="details-main rower">
+                    <div class="customer-row -r">
+                        <div class="customer-column detail-1">
+                          <div class="card-1">
+                            <div class="plain-title">
+                                <h5  class="percent">Basic</h5>
+                                <h6 class="discount">Save 30%</h6>
+                            </div>
+                            <p>
+                                <sup class="superscript">$</sup>
+                                <span class="seven">7</span>
+                                <sup class="-s">
+                                    <span class="val">.99</span>
+                                    /month
+                                </sup>
+                            </p>
+
+                            <p class="bill">Billed as $96 per year</p>
+                            
+                            <ul class="features">
+                                <li><p class=""><span class="-span">25</span> Projects</p></li>
+                                <li><p class=""><span class="-span">10</span> mySQL Database</p></li>
+                                <li><p class=""><span class="-span">25 GB</span> of Storage</p></li>
+                                <li><p class=""><span class="-span">Premium</span> Support</p></li>
+                            </ul>
+                            <a href="#" class="btn-plan">Select Plan</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="customer-row -r">
+                        <div class="customer-column detail-1">
+                          <div class="card-1">
+                            <div class="plain-title">
+                                <h5  class="percent">Agency</h5>
+                                <h6 class="discount">Save 25%</h6>
+                            </div>
+                            <p>
+                                <sup class="superscript">$</sup>
+                                <span class="seven">11</span>
+                                <sup class="-s">
+                                    <span class="val">.25</span>
+                                    /month
+                                </sup>
+                            </p>
+
+                            <p class="bill">Billed as $135 per year</p>
+                            
+                            <ul class="features">
+                                <li><p class=""><span class="-span">100</span> Projects</p></li>
+                                <li><p class=""><span class="-span">25</span> mySQL Database</p></li>
+                                <li><p class=""><span class="-span">80 GB</span> of Storage</p></li>
+                                <li><p class=""><span class="-span">Premium</span> Support</p></li>
+                            </ul>
+                            <a href="#" class="btn-plan">Select Plan</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="customer-row -r">
+                        <div class="customer-column detail-1">
+                          <div class="card-1">
+                            <div class="plain-title">
+                                <h5  class="percent">Advanced</h5>
+                                <h6 class="discount-p">Popular</h6>
+                            </div>
+                            <p>
+                                <sup class="superscript">$</sup>
+                                <span class="seven">15</span>
+                                <sup class="-s">
+                                    <span class="val">.99</span>
+                                    /month
+                                </sup>
+                            </p>
+
+                            <p class="bill">Billed as $199 per year</p>
+                            
+                            <ul class="features">
+                                <li><p class=""><span class="-span">Unlimited</span> Projects</p></li>
+                                <li><p class=""><span class="-span">50</span> mySQL Database</p></li>
+                                <li><p class=""><span class="-span"> 500 GB</span> of Storage</p></li>
+                                <li><p class=""><span class="-span">VIP</span> Support</p></li>
+                            </ul>
+                            <a href="#" class="btn-plan -select">Select Plan</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="menu-card" class="menu-card">
+          <div class="price-compare">
+            <div class="compare-main">
+                <div class="center-text">
+                    <h3 class="packages">
+                        Compare Pricing Packages
+                    </h3>
+                    <div class="mobile-table">
+                        <table class="table text-center">
+
+                            <thead>
+                                <tr class="first_row">
+                                    <th style="width: 34%;"> </th>
+                                    <th style="width: 22%;">Basic</th>
+                                    <th style="width: 22%;">Agency</th>
+                                    <th style="width: 22%;">Advanced</th>
+                                   </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <th scope="row" class="text-start">25 Projects</th>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" class="text-start">100 Projects</th>
+                                    <td class="ico-10 disabled-option"><i class="fa-solid fa-xmark" style="color: #b8bdc6;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" class="text-start">Unlimited</th>
+                                    <td class="ico-10 disabled-option"><i class="fa-solid fa-xmark" style="color: #b8bdc6;"></i></td>
+                                    <td class="ico-10 disabled-option"><i class="fa-solid fa-xmark" style="color: #b8bdc6;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" class="text-start">10 mySQL Database</th>
+                                    <td class="ico-10 disabled-option"><i class="fa-solid fa-xmark" style="color: #b8bdc6;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" class="text-start">25 mySQL Database</th>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" class="text-start">50 mySQL Database</th>
+                                    <td class="ico-10 disabled-option"><i class="fa-solid fa-xmark" style="color: #b8bdc6;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" class="text-start">25 GB of Storage</th>
+                                    <td class="ico-10 disabled-option"><i class="fa-solid fa-xmark" style="color: #b8bdc6;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" class="text-start">80 GB of Storage</th>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" class="text-start">500 mySQL Database</th>
+                                    <td class="ico-10 disabled-option"><i class="fa-solid fa-xmark" style="color: #b8bdc6;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" class="text-start">Premium Support</th>
+                                    <td class="ico-10 disabled-option"><i class="fa-solid fa-xmark" style="color: #b8bdc6;"></i></td>
+                                    <td class="ico-10 disabled-option"><i class="fa-solid fa-xmark" style="color: #b8bdc6;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" class="text-start">VIP Support</th>
+                                    <td class="ico-10 disabled-option"><i class="fa-solid fa-xmark" style="color: #b8bdc6;"></i></td>
+                                    <td class="ico-10 disabled-option"><i class="fa-solid fa-xmark" style="color: #b8bdc6;"></i></td>
+                                    <td class="ico-15 green-color"><i class="fa-solid fa-check" style="color: #66f109;"></i></td>
+                                </tr>
+
+                            </tbody>
+
+                          </table>  
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- pricing notic -->
+        <div class="easiness -e">
+            <div class="offset">
+                <div class="pricing-notice ">					
+                    <p class="taxes">The above prices do not include applicable taxes based on your billing address.
+                       The final price will be displayed on the checkout page, before the payment is completed
+                    </p>
+                </div>	
+            </div>
+        </div>
+        <!-- payment methods -->
+        <div class="payment-methods ">	
+            <div class="payment-main">
+
+                <!-- Payment Methods -->
+                <div class="methods">
+                    <div class="pbox mb-40">
+
+                        <!-- Title -->
+                        <h6 class="accept">Accepted Payment Methods</h6>
+
+                        <!-- Payment Icons -->
+                        <ul class="payment-icons">
+                            <li><img src="assets/images/visa.png" alt="payment-icon"></li>
+                            <li><img src="assets/images/am.png" alt="payment-icon"></li>
+                            <li><img src="assets/images/discover.png" alt="payment-icon"></li>
+                            <li><img src="assets/images/paypal.png" alt="payment-icon"></li>	
+                            <li><img src="assets/images/jcb.png" alt="payment-icon"></li>
+                            <li><img src="assets/images/shopify.png" alt="payment-icon"></li>
+                        </ul>
+
+                    </div>
+                </div>	
+
+
+                <!-- Payment Guarantee -->
+                <div class="guarantee">
+                    <div class="pbox mb-40">
+
+                        <!-- Title -->
+                        <h6 class="accept">Money Back Guarantee</h6>
+
+                        <!-- Text -->
+                        <p class="olmo">Explore OLMO Premium for 14 days. If it’s not a perfect fit, receive a full refund.</p>
+                        
+                    </div>
+                </div>	
+
+
+                <!-- Payment Encrypted -->
+                <div class="Encrypted">
+                    <div class="pbox mb-40">
+
+                        <!-- Title -->
+                        <h6 class="accept">SSL Encrypted Payment</h6>
+
+                        <!-- Text -->
+                        <p class="olmo">Your information is protected by 256-bit SSL encryption.</p>
+
+                    </div>
+                </div>	
+
+            </div>
+        </div>
+        <section id="try-olmo" class="try-olmo">
+            <div class="try">
+                <div class="containers">
+                    <div class="wrapper">
+                        <div class="wrapper-text">
+
+
+                            <!-- CALL TO ACTION TEXT -->
+                            <div class="days">
+                                <div class="cta-4-txt">
+                                    <h4 class="later">Try OLMO free for 14 days. Start your trial now and pick a plan later</h4>
+                                </div>
+                            </div>
+
+
+                            <!-- CALL TO ACTION BUTTON -->
+                            <div class="read">
+                                <div class="text-end">
+                                    <div class="cta-4-btn text-center">
+                                        <a href="pricing.html" class="btn-skyblue">Get Started Now</a>
+                                        <p class="faq"><a href="faqs.html">Read The FAQs</a></p>
+                                    </div>	
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>    <!-- End row -->
+                </div>	   <!-- End container -->	
+            </div>
+
+        </section>
+        <section class="q&A" id="q&A"> 
+            <div class="container">
+                <div class="questions">
+                    <div class="look">
+                        <div class="blank">
+                            <h2>Got Questions? Look Here
+                            </h2>
+                            <p>Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus varius and magnis sapien</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div data-aos="fade-up"data-aos-duration="2000"  class="question-section">
+                    <div class="question number-1">
+                        <h5>Can I see OLMO in action before purchasing?</h5>
+                        <p>Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis blandit ultrice ligula egestas and magna suscipit lectus magna suscipit luctus blandit vitae</p>
+                    </div>
+                    <div class="question number-2">
+                        <h5>Do you have a free trial?</h5>
+                        <p>Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus libero and quisque gravida donec and neque. Blandit justo aliquam molestie nunc sapien</p>
+                    </div>
+                    <div class="question number-3">
+                        <h5>What are the requirements for using OLMO?</h5>
+                        <p>An enim nullam tempor sapien gravida a donec ipsum enim an porta justo integer at velna vitae auctor integer congue undo magna at pretium purus pretium</p>
+                    </div>
+                    <div class="question number-4">
+                        <h5>How does OLMO handle my privacy?</h5>
+                        
+                            <li>Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula</li>
+                            <li>An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu mollis blandit integer at velna   </li>
+                        
+                    </div>
+                    <div class="question number-5">
+                        <h5>Can I use OLMO on different devices?
+                        </h5>
+                        <li>
+                            Fringilla risus, luctus mauris orci auctor purus ligula euismod pretium purus pretium rutrum tempor sapien
+                        </li>
+                        <li>Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien undo pretium a purus</li>
+                    </div>
+                
+                
+                    <div class="question number-6">
+                        <h5>I have an issue with my account
+                        </h5>
+                        
+                            <li>Fringilla risus, luctus mauris orci auctor purus</li>
+                            <li>Quaerat sodales sapien euismod blandit purus and ipsum primis in cubilia laoreet augue luctus</li>
+                    </div>
+            </div>
+            <div class="ask">
+                <div class="ask-more">
+                <h5>Have more questions? <span>Ask your question here</span></h5>
+            </div>
+            </div>
+        </section>
+        <section id="testimonial" class="testimonial-main">
+            <div class="container">
+                <div class="story">
+                    <h1>Stories From Our Customers</h1>
+                    <p> Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus varius and magnis sapien</p>
+                </div>
+                <div class="customer-section">
+                    <div class="customer-row">
+                        <div class="customer-column">
+                          <div class="card">
+                            <i class="fa-solid fa-quote-left"></i>
+                              <p>Augue at vitae purus tempus egestas volutpat augue undo cubilia laoreet magna suscipit luctus dolor blandit at purus tempus feugiat impedit </p>
+                            <h3>Marisol19</h3>
+                            <p>@marisol19</p>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <i class="fa fa-star-half-o" style="color:orange"></i>
+                          </div>
+                        </div>
+                </div>
+                <div class="customer-row">
+                    <div class="customer-column">
+                      <div class="card">
+                        <i class="fa-solid fa-quote-left"></i>
+                          <p>An augue cubilia laoreet undo magna ipsum semper suscipit egestas magna ipsum ligula a vitae purus and ipsum primis cubilia magna suscipit			   
+                         </p>
+                        <h3>Jennifer Harper</h3>
+                        <p>App Developer</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <i class="fa fa-star-half-o" style="color:orange"></i>
+                      </div>
+                    </div>
+                 </div>
+                 <div class="customer-row">
+                    <div class="customer-column">
+                      <div class="card">
+                        <i class="fa-solid fa-quote-left"></i>
+                          <p>An augue cubilia laoreet undo magna ipsum semper suscipit egestas magna   ipsum ligula a vitae purus and ipsum primis cubilia magna suscipit			   
+                          </p>
+                        <h3>Jonathan Barnes</h3>
+                        <p>jQuery Programmer</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <i class="fa fa-star-half-o" style="color:orange"></i>
+                      </div>
+                    </div>
+                </div>
+                <div class="customer-row">
+                    <div class="customer-column">
+                      <div class="card">
+                        <i class="fa-solid fa-quote-left"></i>
+                          <p>An augue cubilia laoreet undo magna ipsum semper suscipit egestas magna   ipsum ligula a vitae purus and ipsum primis cubilia magna suscipit			   
+                          </p>
+                        <h3>Jonathan Barnes</h3>
+                        <p>jQuery Programmer</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <i class="fa fa-star-half-o" style="color:orange"></i>
+                      </div>
+                    </div>
+                </div>
+
+                
+         </div> 
+        </section>
+        <footer id="footer-1" class="footer-section">
+            <div class="container">
+                <div class="main-footer">
+                    <div class="foot-1">
+                        <div class="img-sec">
+                            <img class="footer-logo" src="assets/images/logo-01.png" alt="logo-1">
+                            <p>Smart FM your AI-powered CMMS Solution for Facility Management, designed to empower you with complete control over your Facilities.</p>
+                        </div>
+                    </div>
+                    <div class="company-lst">
+                        <h6>Company
+                        </h6>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Careers</li>
+                            <li>Press & Media</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="discover-lst">
+                        <h6>Discover</h6>
+                        <ul>
+                            <li>Our Blog</li>
+                            <li>Advertising</li>
+                            <li>Plan & Pricing</li>
+                            <li>Testimonials</li>
+                        </ul>
+                    </div>
+                    <div class="legal-lst">
+                        <h6>Legal</h6>
+                        <ul>
+                            <li>Terms of Use</li>
+                            <li>Privacy Policy</li>
+                            <li>Cookie Policy</li>
+                            <li>Site Map</li>
+                        </ul>
+                    </div>
+                    <div class="support-lst">
+                        <h6>Support</h6>
+                        <ul>
+                            <li>FAQs</li>
+                            <li>Editor Help</li>
+                            <li>Community</li>
+                            <li>Live Chatting</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="final-foot">
+                    <div class="copy-right">
+                        <p>© 2010 - 2021 OLMO. All Rights Reserved</p>
+                    </div>
+                    <div class="social-media">
+                        <p>Facebook  |  Twitter  |  LinkedIn  |  Dribbble</p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/4a3d56b7f8.js" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
+     <a href="#" id="ui-to-top" class="ui-to-top fa fa-angle-up active"></a>
+</body>
+</html>
